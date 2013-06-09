@@ -13,8 +13,7 @@ void setup()
   pinMode(relePin3, OUTPUT);
   pinMode(relePin4, OUTPUT);
   Serial.begin(9600);
-  delay(250); // wait half a sec
-}
+  delay(250); // wait a tiny bit
 
 void loop() 
 { 
